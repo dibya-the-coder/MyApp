@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "my_vlogs",
+  "info": {
+    "singularName": "my-vlog",
+    "pluralName": "my-vlogs",
+    "displayName": "myVlog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "vlogId": {
+      "type": "integer"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
